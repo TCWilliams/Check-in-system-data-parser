@@ -8,7 +8,7 @@ import tkFileDialog
 #Function ************************************************************
 
 def split_data_into_individual_servers(services):
-    """ Takes the full activity lest and splits populates the server lists 
+    """ Takes the full activity list and splits populates the server lists 
     """
     for i in services:  
         if ('s1' in i or 'e1' in i): server1.append(i) # appends to appropriate list, any service start/stop activity
